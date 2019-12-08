@@ -1,0 +1,92 @@
+		body{
+			background: url("images/fondo7.jpg") 100%; 
+			color: #CCFFFF;
+			align-content: center;
+		}
+
+		.button {
+  			display: inline-block;
+    		text-align: center;
+    		vertical-align: middle;
+    		padding: 12px 24px;
+   			border: 1px solid #05293b;
+    		border-radius: 8px;
+    		background: #0f71a5;
+    		background: -webkit-gradient(linear, left top, left bottom, from(#0f71a5), to(#05293b));
+    		background: -moz-linear-gradient(top, #0f71a5, #05293b);
+    		background: linear-gradient(to bottom, #0f71a5, #05293b);
+    		-webkit-box-shadow: #1288c6 0px 0px 40px 0px;
+    		-moz-box-shadow: #1288c6 0px 0px 40px 0px;
+    		box-shadow: #1288c6 0px 0px 40px 0px;
+    		text-shadow: #031721 1px 1px 1px;
+    		font: normal normal bold 20px trebuchet ms;
+    		color: #ffffff;
+    		text-decoration: none;
+}
+		.button2 {
+    		display: inline-block;
+    		text-align: center;
+   		 	vertical-align: middle;
+    		padding: 12px 24px;
+    		border: 1px solid #af626f;
+    		border-radius: 8px;
+    		background: #ffa1b6;
+    		background: -webkit-gradient(linear, left top, left bottom, from(#ffa1b6), to(#af626f));
+    		background: -moz-linear-gradient(top, #ffa1b6, #af626f);
+    		background: linear-gradient(to bottom, #ffa1b6, #af626f);
+    		-webkit-box-shadow: #ffa8be 0px 0px 40px 0px;
+    		-moz-box-shadow: #ffa8be 0px 0px 40px 0px;
+    		box-shadow: #ffa8be 0px 0px 40px 0px;
+    		text-shadow: #7d464f 1px 1px 1px;
+    		font: normal normal bold 20px trebuchet ms;
+    		color: #ffffff;
+    		text-decoration: none;
+}
+		.button3 {
+    		display: inline-block;
+		    text-align: center;
+		    vertical-align: middle;
+		    padding: 12px 24px;
+		    border: 1px solid #352621;
+		    border-radius: 8px;
+		    background: #94695d;
+		    background: -webkit-gradient(linear, left top, left bottom, from(#94695d), to(#352621));
+		    background: -moz-linear-gradient(top, #94695d, #352621);
+		    background: linear-gradient(to bottom, #94695d, #352621);
+		    -webkit-box-shadow: #b27e70 0px 0px 40px 0px;
+		    -moz-box-shadow: #b27e70 0px 0px 40px 0px;
+		    box-shadow: #b27e70 0px 0px 40px 0px;
+		    text-shadow: #1e1513 1px 1px 1px;
+		    font: normal normal bold 20px trebuchet ms;
+		    color: #ffffff;
+		    text-decoration: none;
+}
+		.button4 {
+    		display: inline-block;
+    		text-align: center;
+    		vertical-align: middle;
+		    padding: 12px 24px;
+		    border: 1px solid #c04732;
+		    border-radius: 8px;
+		    background: #ff7451;
+		    background: -webkit-gradient(linear, left top, left bottom, from(#ff7451), to(#c04732));
+		    background: -moz-linear-gradient(top, #ff7451, #c04732);
+		    background: linear-gradient(to bottom, #ff7451, #c04732);
+		    -webkit-box-shadow: #ff6b4a 0px 0px 40px 0px;
+		    -moz-box-shadow: #ff6b4a 0px 0px 40px 0px;
+		    box-shadow: #ff6b4a 0px 0px 40px 0px;
+		    text-shadow: #782d1f 1px 1px 1px;
+		    font: normal normal bold 20px trebuchet ms;
+		    color: #ffffff;
+		    text-decoration: none;
+}
+		ul {
+			list-style-type: none;
+		}
+		body {
+			text-align: center;
+		}
+		header {
+			background-color: #1F4A86;
+			padding: 40px;
+		}
