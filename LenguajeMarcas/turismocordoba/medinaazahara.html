@@ -10,24 +10,184 @@
 	<title>Turismo Córdoba</title>
 </head>
 <body>
+	<style>
+		.caja1 {
+			padding: 20px;
+			width: 700px;
+			position: relative;
+			border: 1px solid black; 
+			outline: 5px solid red; 
+			margin: 20px;
+			color: black;
+}
+		.caja2 {
+			padding: 20px;
+			width: 700px;
+			position: relative;
+			border: 1px solid black; 
+			outline: 5px solid aqua; 
+			margin: 20px;
+			color: black;
+}
+
+
+
+		/*GREEN*/
+  .b-green, .b-green:before {
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(26,188,156,1)));
+    background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+    background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
+  }
+  /*PINK*/
+  .b-pink, .b-pink:before {
+    background: rgba(231,72,234,1);
+    background: -moz-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(231,72,234,1)), color-stop(100%, rgba(75,26,188,1)));
+    background: -webkit-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e748ea', endColorstr='#4b1abc', GradientType=1 );
+  }
+  /*RED*/
+  .b-red, .b-red:before {
+    background: rgba(234,110,72,1);
+    background: -moz-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(234,110,72,1)), color-stop(100%, rgba(188,26,99,1)));
+    background: -webkit-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6e48', endColorstr='#bc1a63', GradientType=1 );
+  }
+  /*ORANGE*/
+  .b-orange, .b-orange:before {
+    background: rgba(255,193,7,1);
+    background: -moz-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,193,7,1)), color-stop(100%, rgba(255,87,34,1)));
+    background: -webkit-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+    background: linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#ff5722', GradientType=1 );
+  }
+  /*BLUE*/
+  .b-blue, .b-blue:before {
+    background: rgba(5,118,255,1);
+    background: -moz-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(5,118,255,1)), color-stop(100%, rgba(36,248,255,1)));
+    background: -webkit-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+    background: linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0576ff', endColorstr='#24f8ff', GradientType=1 );
+  }
+/*END GRADIENTS*/
+/*BASE BUTTON*/
+.button {
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+  font-size: 2em;
+  font-weight: bold;
+  transition: all .5s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button:hover {
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, .75);
+}
+.button:hover:after {
+  left: 100%;
+  top: 100%;
+  bottom: 100%;
+  right: 100%;
+}
+.button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 5px;
+  transition: all .5s;
+}
+.button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+  z-index: -1;
+  border-radius: 5px;
+  transition: all .5s;
+}
+.button2 {
+  display: inline-block;
+  font-size: 2em;
+  margin: .5em;
+  padding: .5em;
+  border-radius: 5px;
+  transition: all .5s;
+  filter: hue-rotate(0deg);
+  color: #FFF;
+  text-decoration: none;
+}
+/*END BASE BUTTON*/
+/*ROTATE*/
+.rot-360-noscoop:hover {
+  filter: hue-rotate(360deg);
+  transform: rotate(360deg);
+}
+.rot-135:hover {
+  filter: hue-rotate(135deg);
+}
+.rot-90:hover {
+  filter: hue-rotate(90deg);
+}
+/*END ROTATE*/
+
+
+
+li {
+	list-style-type: none;
+}
+
+
+	</style>
+
+
 	<header>
 		<h1 id="top">Córdoba Ciudad Patrimonio</h1>
 		</header>
-	<nav>
-		<li><a href="index.html">Inicio </a></li>
-		<li><a href="mezquita.html">La Mezquita </a></li>
-		<li><a href="cascohistorico.html">Casco Histórico </a></li>
-		<li><a href="patios.html">Los patios </a></li>
-		<li><a href="medinaazahara.html">Medina Azahara </a></li>
-		<li><a href="contacto.html">Contacto </a></li>
-	</nav>
+	<div class="ctn">
+			<nav>
+				<li><a href="index.html" class="button b-pink">Inicio </a></li>
+				<li><a href="mezquita.html" class="button b-red">La Mezquita </a></li>
+				<li><a href="cascohistorico.html" class="button b-orange">Casco histórico </a></li>
+				<li><a href="lospatios.html" class="button b-blue">Los Patios </a></li>
+				<li><a href="contacto.html" class="button b-green">Contacto </a></li>
+			</nav>
 	<main>
 		<section>
 			<article>
 				<h2>Medina Azahara</h2>
 				<img src="images/medinaazahara.jpg" width="500px">
 				<h3>Ubicación y distribución</h3>
-				<p>
+				<p class="caja1">
 			Está situada a unos 8 kilómetros al oeste de Córdoba, en las últimas estribaciones de Sierra Morena, en la ladera del Yabal al-Arus, frente al valle del Guadalquivir y orientada de norte a sur, sobre un espolón de la sierra, entre dos barrancadas, que se adentra en la campiña se encuentra Medina Azahara o Madínat al-Zahra. Ha sido calificada como el Versalles de la Edad Media. Fue elegida por los extraordinarios valores del paisaje, permitiendo desarrollar un programa de construcciones jerarquizadas, de tal manera que la ciudad y la llanura extendida a sus pies quedaban física y visualmente dominadas por las edificaciones del alcázar. Su implantación en el territorio generó una red viaria e infraestructuras hidráulicas y de abastecimiento para su construcción, conservada en parte hasta la actualidad en forma de restos de caminos, canteras, acueductos, almunias y puentes.
 
 			Aprovechando perfectamente el desnivel del terreno, la ciudad palatina de Medina Azahara fue distribuida en tres terrazas; el recinto de la ciudad adopta un trazado rectangular, frente a la idea laberíntica y caótica característica del urbanismo musulmán. De 1500 m de lado en sentido este-oeste y unos 750 m de norte a sur, se ve tan sólo deformado en el lado norte por las necesidades de adaptación a la difícil topografía del terreno. La topografía jugó un papel determinante en la configuración de la ciudad. Su emplazamiento sobre la falda de Sierra Morena permitió diseñar un programa urbano, en el que la ubicación y la relación física entre las distintas construcciones resultaran expresivas del papel de cada una de ellas en el conjunto del que forman parte: El palacio se ubica en la parte más alta, escalonando sus edificaciones por la ladera de la montaña, en una situación de clara preeminencia sobre el caserío urbano y la mezquita aljama, extendidos por la llanura.
@@ -38,7 +198,7 @@
 			</article>
 			<article>
 				<h3>Historia</h3>
-				<p>
+				<p class="caja2">
 			El Califato de Córdoba fue un estado andalusí proclamado por Abderramán III, de la dinastía omeya, en el año 929 d.C. que conllevó al mayor esplendor político, social y económico de la España musulmana, haciendo de la ciudad de Córdoba la más avanzada de Europa y el asombro del mundo.
 
 			En el 750 d.C. la dinastía de los Omeyas es derrocada del Califato de Damasco por los Abasíes. Abderramán I el Emigrado, siendo miembro superviviente de los Omeyas, huye a Al-Ándalus proclamando el Emirato de Córdoba en 756 d.C. independiente de la nueva capital abasí, Bagdad. Abderramán I no se proclamó califa pero sí lo hizo uno de sus sucesores, Abderramán III, después de acabar con la inestabilidad política del emirato (principalmente la revuelta de Omar ben Hafsún). La creación del califato significó alzarse hasta el nivel de Estado del Califato de Bagdad con todo lo que ello conlleva, tanto religioso como político, en competencia con el califato abasí. 
