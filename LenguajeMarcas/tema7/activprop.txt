@@ -1,0 +1,17 @@
+<dir>
+	<calle></calle>
+	<num></num>
+	<piso>
+	<planta><
+	<letra
+	<cod p></cod p>
+
+<pedido fecha=" ">
+<pedido>
+	<fecha></fecha>
+</pedido>
+<pedido>
+	<fecha>
+	<dias
+	<mes
+	<año

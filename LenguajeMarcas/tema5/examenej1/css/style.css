@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "box1 box1 box4"
+    "box3 box2 box2"
+    "box3 box5 box5";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 0;
+
+}
+header, footer, article, nav, aside {
+    padding: 15px;
+    background: rgb(29, 204, 146);
+}
+#header {
+    grid-area: box1;
+    flex-grow: 1;
+}
+#article {
+    grid-area: box2;
+    flex-grow: 1;
+}
+#nav {
+    grid-area: box3;
+    flex-grow: 0;
+}
+#aside {
+    grid-area: box4;
+    flex-grow: 0;
+}
+#footer {
+    grid-area: box5;
+    flex-grow: 1;
+}
+

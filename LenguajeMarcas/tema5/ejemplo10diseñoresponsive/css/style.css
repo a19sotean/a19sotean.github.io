@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main, header, section, aside, footer {
+    margin: 0px;
+    padding: 1rem;
+    border: 1px solid black;
+    background: slategray;
+}
+
+main {
+    background:purple;
+}
+header {
+    background: turquoise;
+}
+section {
+    background: yellowgreen;
+}
+section.content {
+    flex: 1;
+}
+aside {
+    background: springgreen;
+    flex: 0 1 320px;
+}
+footer {
+    background: slateblue;
+}
+@media (min-width: 640px) {
+    .flex-container {
+        display: flex;
+    }
+}

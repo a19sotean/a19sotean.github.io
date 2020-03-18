@@ -1,0 +1,10 @@
+dt {
+    top: 0;
+    left: 0;
+    background-color: coral;
+    position: sticky;
+    height: 30px;
+}
+body {
+    background-color: aquamarine;
+}

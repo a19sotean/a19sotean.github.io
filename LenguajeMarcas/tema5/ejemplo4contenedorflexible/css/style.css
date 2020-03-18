@@ -1,0 +1,11 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+li {
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+}

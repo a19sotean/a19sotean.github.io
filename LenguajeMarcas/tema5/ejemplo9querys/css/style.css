@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+@media (max-width: 900px) {
+    body {
+        background-color: gold;
+    }
+}
+@media (max-width: 800px) {
+    body {
+        background-color: hotpink;
+    }
+}
+@media (max-width: 700px) {
+    body {
+        background-color: teal;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        background-color: greenyellow;
+    }
+}

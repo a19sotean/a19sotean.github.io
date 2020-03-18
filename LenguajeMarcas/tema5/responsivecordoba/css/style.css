@@ -1,0 +1,44 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* main, header, section, aside, footer {
+    margin: 0px;
+    padding: 1rem;
+    border: 1px solid black;
+    background: slategray;
+} */
+
+body {
+    background: rgb(162, 130, 238);
+}
+.mezquita {
+    background: rgb(52, 207, 192);
+    flex-grow: 1;
+}
+.casco {
+    background: yellowgreen;
+}
+.patios {
+    background: coral;
+    flex: 1;
+}
+.medina {
+    background: springgreen;
+    flex-grow: 1;
+}
+footer {
+    background: slateblue;
+}
+@media (min-width: 640px) {
+    .flex-container1 {
+        display: flex;
+    }
+}
+@media (min-width: 640px) {
+    .flex-container2 {
+        display: flex;
+    }
+}
+
