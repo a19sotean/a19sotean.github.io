@@ -1,42 +1,132 @@
-body{
-			background: url("images/fondog.jpg") 10%;
-			color: #D6B8E8;
-}
-.button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 12px 24px;
-    border: 1px solid #840632;
-    border-radius: 8px;
-    background: #f80b5e;
-    background: -webkit-gradient(linear, left top, left bottom, from(#f80b5e), to(#840632));
-    background: -moz-linear-gradient(top, #f80b5e, #840632);
-    background: linear-gradient(to bottom, #f80b5e, #840632);
-    -webkit-box-shadow: #ff0d71 0px 0px 12px 0px;
-    -moz-box-shadow: #ff0d71 0px 0px 12px 0px;
-    box-shadow: #ff0d71 0px 0px 12px 0px;
-    text-shadow: #4e041e 0px -5px 9px;
-    font: normal normal bold 20px arial;
-    color: #ffffff;
-    text-decoration: none;
-}
-.button:hover,
-.button:focus {
-    border: 1px solid ##9b073b;
-    background: #ff0d71;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff0d71), to(#9e073c));
-    background: -moz-linear-gradient(top, #ff0d71, #9e073c);
-    background: linear-gradient(to bottom, #ff0d71, #9e073c);
-    color: #ffffff;
-    text-decoration: none;
+html {
+background-color: #17151a;
 }
 
-ul {
-	list-style-type: none;
-}
 header {
-	background-color: #9837D3;
-	padding: 40px;
-	text-align: center;
+    padding: 5vh;
+    background: url(../images/cabecera4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(236, 106, 46);
+	text-shadow: 0 0 10px rgb(21, 115, 192);
+	grid-area: b1;
+}
+
+nav{
+	top: 0;
+    position: sticky;
+	width: 250px;
+	height: 100vh;
+	background-color:rgb(236, 106, 46);
+	grid-area: b2;
+}
+
+ul{
+	margin-top:10px;
+	list-style: none;
+	display: block;
+}
+
+li.me{
+	width: 100%;
+	height:60px;
+	border-bottom: 1px solid #004fe2;
+	overflow: hidden;
+}
+
+a.x {
+    text-decoration: none;
+    color: #17151a;
+}
+
+p.menu{
+	position: relative;
+	padding:16px;
+	padding-right: 25px;
+	float:right;
+	color:white;
+	opacity: .6;
+	font-size: 1.2em;
+	-webkit-transition: opacity .2s;
+}
+
+div.barra{
+	position: absolute;
+	height: 60px;
+	width: 0px;
+	background-color: blue;
+	opacity: .1;
+	-webkit-transition: width .2s;
+}
+
+li:hover div.barra{
+	width:210px;
+}
+
+li:hover p.menu{
+	opacity: 1;
+}
+
+main {
+    padding-left: 300px;
+	padding-right: 80px;
+	padding-top: 35px;
+	color: aliceblue;
+	grid-area: b4;
+}
+
+.social {
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 2000px;
+	grid-area: b3;
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.social ul li .icon-rss2 {background: #EE802F;}
+.social ul li .icon-github {background: #333333;}
+.social ul li .icon-linkedin {background: #0E76A8;}
+.social ul li .icon-instagram {background: #8134AF;}
+.social ul li .icon-twitter {background: #00ACEE;}
+
+.social ul li a:hover {
+	background:black;
+}
+
+body {
+	display: grid;
+	grid-template-areas:
+		"b1 b1 b1"
+		"b2 b4 b4"
+		"b2 b4 b4";
+	grid-template-columns: 0px 1fr 80px;
+	grid-template-rows: 100px 1fr 50px;
+	grid-gap: 0;
+}
+}
+
+@media (max-width: 768px) {
+    body {
+        grid-template-areas:
+		"b1"
+        "b2"
+        "b4"
+		"b3";
+        grid-template-columns: 100px 1fr 100px;
+        grid-template-rows: 100px 1fr 50px;
+        grid-gap: 10px;
+    }
 }
