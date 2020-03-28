@@ -1,101 +1,128 @@
-html {
-background-color: #17151a;
+
+
+
+/*********************************************************************************************
+
+1.  Base code
+
+*********************************************************************************************/
+
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+[class*='grid-'] {
+    float: left;
+    padding: 10px;
+    width:100%;
+}
+
+.clear-grid{
+    clear:both;
+    float:inherit;
+}
+.container {
+    margin:0%;
+    width: 100%;
+}
+.container:after, .container:before {
+    display: table;
+    clear:both;
+    content: " ";
+}
+.nest {
+    margin:0 -10px;
+    padding:0;
+    width:auto;
+}
+
+
+
+
+html {
+    background-color: #17151a;
+}
 header {
-    padding: 5vh;
+    padding: 6vh;
     background: url(../images/cabecera4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: rgb(236, 106, 46);
-	text-shadow: 0 0 10px rgb(21, 115, 192);
-	grid-area: b1;
+    text-shadow: 0 0 10px rgb(21, 115, 192);
 }
-
 nav{
-	top: 0;
-    position: sticky;
-	width: 250px;
-	height: 100vh;
-	background-color:rgb(236, 106, 46);
-	grid-area: b2;
+    top: 0;
+    width: 33.33vh;
+    height: 100vh;
+    background-color:rgb(236, 106, 46);
 }
-
 ul{
-	margin-top:10px;
-	list-style: none;
-	display: block;
+    margin-top:10px;
+    list-style: none;
+    display: block;
 }
-
 li.me{
-	width: 100%;
-	height:60px;
-	border-bottom: 1px solid #004fe2;
-	overflow: hidden;
+    width: 100%;
+    height:60px;
+    border-bottom: 1px solid #004fe2;
+    overflow: hidden;
 }
-
 a.x {
     text-decoration: none;
     color: #17151a;
 }
-
 p.menu{
-	position: relative;
-	padding:16px;
-	padding-right: 25px;
-	float:right;
-	color:white;
-	opacity: .6;
-	font-size: 1.2em;
-	-webkit-transition: opacity .2s;
+    position: relative;
+    padding:16px;
+    padding-right: 25px;
+    float:right;
+    color:white;
+    opacity: .6;
+    font-size: 1.2em;
+    -webkit-transition: opacity .2s;
 }
-
 div.barra{
-	position: absolute;
-	height: 60px;
-	width: 0px;
-	background-color: blue;
-	opacity: .1;
-	-webkit-transition: width .2s;
+    position: absolute;
+    height: 60px;
+    width: 0;
+    background-color: blue;
+    opacity: .1;
+    -webkit-transition: width .2s;
 }
-
 li:hover div.barra{
-	width:210px;
+    width:50%;
 }
-
 li:hover p.menu{
-	opacity: 1;
+    opacity: 1;
 }
-
 main {
-    padding-left: 300px;
-	padding-right: 80px;
-	padding-top: 35px;
-	color: aliceblue;
-	grid-area: b4;
+    padding-left: 40%;
+    padding-right: 15%;
+    padding-top: 15%;
+    color: aliceblue;
 }
-
 .social {
-	position: fixed;
-	right: 0;
-	top: 200px;
-	z-index: 2000px;
-	grid-area: b3;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 2000px;
 }
-
 .social ul {
-	list-style: none;
+    list-style: none;
 }
-
 .social ul li a {
-	display: inline-block;
-	color: #fff;
-	background: #000;
-	padding: 10px 15px;
-	text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
 }
-
 .social ul li .icon-rss2 {background: #EE802F;}
 .social ul li .icon-github {background: #333333;}
 .social ul li .icon-linkedin {background: #0E76A8;}
@@ -103,30 +130,135 @@ main {
 .social ul li .icon-twitter {background: #00ACEE;}
 
 .social ul li a:hover {
-	background:black;
+    background:black;
+}
+footer {
+    padding: 6vh;
+    background-color: #00ACEE;
 }
 
-body {
-	display: grid;
-	grid-template-areas:
-		"b1 b1 b1"
-		"b2 b4 b4"
-		"b2 b4 b4";
-	grid-template-columns: 0px 1fr 80px;
-	grid-template-rows: 100px 1fr 50px;
-	grid-gap: 0;
+
+/*********************************************************************************************
+
+2.  Mobile Grid
+
+*********************************************************************************************/
+
+
+.grid-m-1 {
+    width: 100%;
 }
+.grid-m-3 {
+    width: 50%;
+    padding-right: 15%;
+    color: aliceblue;
+}
+.grid-m-4 {
+    width: 100%;
+}
+.grid-m-2 {
+    width: 33.33%;
 }
 
-@media (max-width: 768px) {
-    body {
-        grid-template-areas:
-		"b1"
-        "b2"
-        "b4"
-		"b3";
-        grid-template-columns: 100px 1fr 100px;
-        grid-template-rows: 100px 1fr 50px;
-        grid-gap: 10px;
+/*********************************************************************************************
+
+3.  Grid 720px+
+
+*********************************************************************************************/
+
+
+
+@media (min-width: 720px) {
+    .grid-1 {
+        width: 100%;
     }
+    .grid-3 {
+        width: 66.66666664%;
+        padding-right: 15%;
+        color: aliceblue;
+    }
+    .grid-4 {
+        width: 100%;
+    }
+    .grid-2 {
+        width: 33.33%;
+        position: sticky;
+    }
+
 }
+
+/*********************************************************************************************
+
+4.  Grid 1024px+
+
+*********************************************************************************************/
+
+
+
+@media only screen and (min-width: 1024px) {
+    .grid-tl-1 {
+        width: 100%;
+    }
+    .grid-tl-3 {
+        width: 66.66666664%;
+        padding-right: 15%;
+        color: aliceblue;
+    }
+    .grid-tl-4 {
+        width: 100%;
+    }
+    .grid-tl-2 {
+        width: 33.33%;
+        position: sticky;
+    }
+
+}
+
+
+/*********************************************************************************************
+
+5.  Grid 1200px+
+
+*********************************************************************************************/
+
+
+@media only screen and (min-width: 1200px) {
+/**    .container {
+        max-width:1180px;
+        margin:0 auto;
+    }
+    .container-fluid {
+        max-width:90%;
+        margin:0 5%;
+    }**/
+    .grid-d-1 {
+        width: 100%;
+    }
+    .grid-d-3 {
+        width: 66.66666664%;
+        padding-right: 15%;
+        color: aliceblue;
+    }
+    .grid-d-4 {
+        width: 100%;
+    }
+    .grid-d-2 {
+        width: 33.33%;
+        position: sticky;
+    }
+    
+
+}
+
+/*********************************************************************************************
+
+6.  Helper classes
+
+
+
+
+img.scale, img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+*********************************************************************************************/
