@@ -1,0 +1,212 @@
+
+/*********************************************************************************************
+
+1.  Base code
+
+*********************************************************************************************/
+
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+[class*='grid-'] {
+    float: left;
+    padding: 10px;
+    width:100%;
+}
+
+.clear-grid{
+    clear:both;
+    float:inherit;
+}
+.container {
+    margin:0%;
+    width: 100%;
+}
+.container:after, .container:before {
+    display: table;
+    clear:both;
+    content: " ";
+}
+.nest {
+    margin:0 -10px;
+    padding:0;
+    width:auto;
+}
+
+
+
+
+html {
+    background-color: #f1c9c9;
+}
+header {
+    padding: 10vh;
+    background: url(../../../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(160, 15, 15);
+    text-align: center;
+    font-size: larger;
+}
+nav{
+    top: 0;
+    width: 33.33vh;
+    height: 100vh;
+    background-color:rgb(236, 46, 46);
+}
+ul{
+    margin-top:10px;
+    list-style: none;
+    display: block;
+}
+li.me{
+    width: 100%;
+    height:60px;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+a.x {
+    text-decoration: none;
+    color: #17151a;
+}
+p.menu{
+    position: relative;
+    padding:16px;
+    padding-right: 25px;
+    float:right;
+    color:white;
+    opacity: .6;
+    font-size: 1.2em;
+    -webkit-transition: opacity .2s;
+}
+div.barra{
+    position: absolute;
+    height: 60px;
+    width: 0;
+    background-color: blue;
+    opacity: .1;
+    -webkit-transition: width .2s;
+}
+li:hover div.barra{
+    width:83%;
+}
+li:hover p.menu{
+    opacity: 1;
+}
+main {
+    padding-top: 3%;
+    padding-left: 13%;
+    padding-right: 8%;
+    color: rgb(8, 8, 8);
+}
+
+footer {
+    padding: 6vh;
+    background-color: rgb(19, 27, 31);
+    color: beige;
+}
+
+
+/*********************************************************************************************
+
+2.  Mobile Grid
+
+*********************************************************************************************/
+
+
+.grid-m-1 {
+    width: 100%;
+}
+.grid-m-3 {
+    width: 100%;
+}
+.grid-m-4 {
+    width: 100%;
+}
+.grid-m-2 {
+    width: 20%;
+}
+
+/*********************************************************************************************
+
+3.  Grid 720px+
+
+*********************************************************************************************/
+
+
+
+@media (min-width: 720px) {
+    .grid-1 {
+        width: 100%;
+    }
+    .grid-3 {
+        width: 80%;
+    }
+    .grid-4 {
+        width: 100%;
+    }
+    .grid-2 {
+        width: 20%;
+        position: sticky;
+    }
+
+}
+
+/*********************************************************************************************
+
+4.  Grid 1024px+
+
+*********************************************************************************************/
+
+
+
+@media only screen and (min-width: 1024px) {
+    .grid-tl-1 {
+        width: 100%;
+    }
+    .grid-tl-3 {
+        width: 80%;
+    }
+    .grid-tl-4 {
+        width: 100%;
+    }
+    .grid-tl-2 {
+        width: 20%;
+        position: sticky;
+    }
+
+}
+
+
+/*********************************************************************************************
+
+5.  Grid 1200px+
+
+*********************************************************************************************/
+
+
+@media only screen and (min-width: 1200px) {
+    .grid-d-1 {
+        width: 100%;
+    }
+    .grid-d-3 {
+        width: 80%;
+    }
+    .grid-d-4 {
+        width: 100%;
+    }
+    .grid-d-2 {
+        width: 20%;
+        position: sticky;
+    }
+    
+
+}

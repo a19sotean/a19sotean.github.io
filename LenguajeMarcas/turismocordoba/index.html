@@ -1,225 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"></html>
 <head>
-	<title>Turismo Córdoba</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Córdoba ciudad patrimonio">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Córdoba ciudad patrimonio">
 	<meta name="keywords" content="Turismo, patrimonio, viajes">
-	<link rel="shortcut icon" href="images/icono.jpg" type="images/jpg">
-	<!-- link rel="stylesheet" href="styles.css" -->
-	<title>Turismo Córdoba</title>
+	<link rel="shortcut icon" href="./images/icono.jpg" type="images/jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Turismo Córdoba</title>
 </head>
+    
 <body>
-
-	<style>
-		.caja1 {
-			padding: 20px;
-			width: 700px;
-			position: relative;
-			border: 1px solid black; 
-			outline: 5px solid blue; 
-			margin: 20px;
-			color: black;
-}
-		.caja2 {
-			padding: 20px;
-			width: 700px;
-			position: relative;
-			border: 1px solid black; 
-			outline: 5px solid violet; 
-			margin: 20px;
-			color: black;
-}
-
-
-
-/*GREEN*/
-  .b-green, .b-green:before {
-    background: rgba(73,155,234,1);
-    background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(26,188,156,1)));
-    background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-    background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(26,188,156,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
-  }
-  /*PINK*/
-  .b-pink, .b-pink:before {
-    background: rgba(231,72,234,1);
-    background: -moz-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(231,72,234,1)), color-stop(100%, rgba(75,26,188,1)));
-    background: -webkit-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
-    background: linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e748ea', endColorstr='#4b1abc', GradientType=1 );
-  }
-  /*RED*/
-  .b-red, .b-red:before {
-    background: rgba(234,110,72,1);
-    background: -moz-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(234,110,72,1)), color-stop(100%, rgba(188,26,99,1)));
-    background: -webkit-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
-    background: linear-gradient(45deg, rgba(234,110,72,1) 0%, rgba(188,26,99,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6e48', endColorstr='#bc1a63', GradientType=1 );
-  }
-  /*ORANGE*/
-  .b-orange, .b-orange:before {
-    background: rgba(255,193,7,1);
-    background: -moz-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,193,7,1)), color-stop(100%, rgba(255,87,34,1)));
-    background: -webkit-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
-    background: linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#ff5722', GradientType=1 );
-  }
-  /*BLUE*/
-  .b-blue, .b-blue:before {
-    background: rgba(5,118,255,1);
-    background: -moz-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(5,118,255,1)), color-stop(100%, rgba(36,248,255,1)));
-    background: -webkit-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
-    background: linear-gradient(45deg, rgba(5,118,255,1) 0%, rgba(36,248,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0576ff', endColorstr='#24f8ff', GradientType=1 );
-  }
-/*END GRADIENTS*/
-/*BASE BUTTON*/
-.button {
-  display: inline-block;
-  position: relative;
-  border-radius: 3px;
-  text-decoration: none;
-  padding: .5em;
-  margin: .5em;
-  font-size: 2em;
-  font-weight: bold;
-  transition: all .5s;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.button:hover {
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, .75);
-}
-.button:hover:after {
-  left: 100%;
-  top: 100%;
-  bottom: 100%;
-  right: 100%;
-}
-.button:before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  border-radius: 5px;
-  transition: all .5s;
-}
-.button:after {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 2px;
-  top: 2px;
-  bottom: 2px;
-  right: 2px;
-  z-index: -1;
-  border-radius: 5px;
-  transition: all .5s;
-}
-.button2 {
-  display: inline-block;
-  font-size: 2em;
-  margin: .5em;
-  padding: .5em;
-  border-radius: 5px;
-  transition: all .5s;
-  filter: hue-rotate(0deg);
-  color: #FFF;
-  text-decoration: none;
-}
-/*END BASE BUTTON*/
-/*ROTATE*/
-.rot-360-noscoop:hover {
-  filter: hue-rotate(360deg);
-  transform: rotate(360deg);
-}
-.rot-135:hover {
-  filter: hue-rotate(135deg);
-}
-.rot-90:hover {
-  filter: hue-rotate(90deg);
-}
-/*END ROTATE*/
-
-
-
-li {
-	list-style-type: none;
-}
-
-	</style>
-
-	<header>
-		<h1>Córdoba | Ciudad Patrimonio</h1>
-		</header>
-		<div class="ctn">
-			<nav>
-				<li><a href="mezquita.html" class="button b-pink">La Mezquita </a></li>
-				<li><a href="cascohistorico.html" class="button b-red">Casco Histórico </a></li>
-				<li><a href="patios.html" class="button b-orange">Los patios </a></li>
-				<li><a href="medinaazahara.html" class="button b-blue">Medina Azahara </a></li>
-				<li><a href="contacto.html" class="button b-green">Contacto </a></li>
-			</nav>
-		</div>
-
-	<main>
-		<section>
-			<article>
-				<h2>Título noticia 1</h2>
-				<p class="caja1">
-			Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit,</strong> sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. <strong>Excepteur sint occaecat cupidatat non
-			proident,</strong> sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-			</article>
-			<article>
-				<h2>Título noticia 2</h2>
-				<p class="caja2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			 consequat. <em><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse
-			 cillum dolore eu fugiat nulla pariatur.</em></strong> Excepteur sint occaecat cupidatat non
-			 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-			 	</p>
-			</article>
-		</section>
-		<aside>
-		Agenda 
-		Publicidad
-		<h4>Enlaces de interés</h4>
-		<a href="http://www.turismodecordoba.org" target = "_blank">Turismo Córdoba</a>
-		<h4>Descargas</h4>
-		<a href="documentos/plano.pdf" download="plano" >Mapa de la ciudad</a>
-		</aside>
-	</main>
-	<footer>
-	<address>Córdoba, España</address>
-	<small>&copy; Todos los derechos</small>
-	</footer>
+<div class="container">
+    <div class="grid-1">
+        <header>
+            <h1>Córdoba | Ciudad Patrimonio</h1>
+        </header>
+    </div>
+    <div class="grid-2">
+        <nav>
+            <ul>
+                <li class="me">
+                    <div class="barra"></div>
+                    <p class="menu"><a class="x" href="./monumentos/mezquita/index.html">Mezquita</a></p>
+                </li>
+                <li class="me">
+                    <div class="barra"></div>
+                    <p class="menu"><a class="x" href="./monumentos/medinaazahara/index.html">Medina Azahara</a></p>
+                </li>
+                <li class="me">
+                    <div class="barra"></div>
+                    <p class="menu"><a class="x" href="./monumentos/cascohistorico/index.html">Casco histórico</a></p>
+                </li>
+                <li class="me">
+                    <div class="barra"></div>
+                    <p class="menu"><a class="x" href="./monumentos/patios/index.html">Los Patios</a></p>
+                </li>
+                <li class="me">
+                    <div class="barra"></div>
+                    <p class="menu"><a class="x" href="./monumentos/contacto/index.html">Contacto</a></p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="grid-3">
+        <main>
+            <section>
+                <article>
+                    <h2>Título noticia 1</h2>
+                    <p class="caja1">
+                Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit,</strong> sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. <strong>Excepteur sint occaecat cupidatat non
+                proident,</strong> sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+                </article>
+                <article>
+                    <h2>Título noticia 2</h2>
+                    <p class="caja2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                 consequat. <em><strong>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                 cillum dolore eu fugiat nulla pariatur.</em></strong> Excepteur sint occaecat cupidatat non
+                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                     </p>
+                </article>
+            </section>
+        </main>
+    </div>
+    <div class="grid-4">
+        <footer>
+            <p>Andrea Solís Tejada</p>
+            <p>Estudiante de desarrollo de aplicaciones web</p>
+            <h4>Descargas</h4>
+		    <a href="documentos/plano.pdf" download="plano" >Mapa de la ciudad</a>
+        </footer>
+    </div>
+</div>
 </body>
 </html>

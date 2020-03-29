@@ -1,6 +1,4 @@
 
-
-
 /*********************************************************************************************
 
 1.  Base code
@@ -45,7 +43,8 @@
 
 
 html {
-    background-color: #17151a;
+    background-color: rgb(22, 21, 24);
+    color: aliceblue;
 }
 header {
     padding: 6vh;
@@ -102,11 +101,12 @@ li:hover p.menu{
     opacity: 1;
 }
 main {
-    padding-left: 40%;
-    padding-right: 15%;
-    padding-top: 15%;
+    padding-top: 3%;
+    padding-left: 13%;
+    padding-right: 8%;
     color: aliceblue;
 }
+
 .social {
     position: fixed;
     right: 0;
@@ -134,7 +134,7 @@ main {
 }
 footer {
     padding: 6vh;
-    background-color: #00ACEE;
+    background-color: rgb(18, 105, 139);
 }
 
 
@@ -151,6 +151,7 @@ footer {
 .grid-m-3 {
     width: 50%;
     padding-right: 15%;
+    padding-top: 8%;
     color: aliceblue;
 }
 .grid-m-4 {
@@ -175,6 +176,7 @@ footer {
     .grid-3 {
         width: 66.66666664%;
         padding-right: 15%;
+        padding-top: 8%;
         color: aliceblue;
     }
     .grid-4 {
@@ -202,6 +204,7 @@ footer {
     .grid-tl-3 {
         width: 66.66666664%;
         padding-right: 15%;
+        padding-top: 8%;
         color: aliceblue;
     }
     .grid-tl-4 {
@@ -223,20 +226,13 @@ footer {
 
 
 @media only screen and (min-width: 1200px) {
-/**    .container {
-        max-width:1180px;
-        margin:0 auto;
-    }
-    .container-fluid {
-        max-width:90%;
-        margin:0 5%;
-    }**/
     .grid-d-1 {
         width: 100%;
     }
     .grid-d-3 {
         width: 66.66666664%;
         padding-right: 15%;
+        padding-top: 8%;
         color: aliceblue;
     }
     .grid-d-4 {
@@ -249,16 +245,3 @@ footer {
     
 
 }
-
-/*********************************************************************************************
-
-6.  Helper classes
-
-
-
-
-img.scale, img.responsive {
-    max-width: 100%;
-    height: auto;
-}
-*********************************************************************************************/

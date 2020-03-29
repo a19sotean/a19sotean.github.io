@@ -1,0 +1,9 @@
+.caja {
+  padding: 20px;
+  width: 300px;
+  position: relative;
+  border: 10px double blue; 
+  color: #0DFFC3;
+  background-image: url("./images/fondocaja.jpg");
+  text-align: center;
+}
