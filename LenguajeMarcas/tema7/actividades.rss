@@ -2,9 +2,29 @@
 <rss version="2.0">
     <channel>
         <item>
-            <title>Actividad 1 xsd. Documento xml </title>
-            <link>https://github.com/a19sotean/Lenguaje-de-marcas/blob/master/actividad1xsd.xml</link>
-            <descripcion>Documento xml del ejercicio de los países.</descripcion>
+            <title>Actividad 1 xsd. Países </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas-xml/tree/master/actividad1xsdPaises</link>
+            <descripcion>Ejercicio xsd de los países.</descripcion>
+        </item>
+        <item>
+            <title>Actividad 2 xsd. Personas </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas-xml/tree/master/actividad2xsdPersonas</link>
+            <descripcion>Ejercicio xsd de las personas.</descripcion>
+        </item>
+        <item>
+            <title>Actividad 3 xsd. Personas </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas-xml/tree/master/actividad3xsdPersonas2</link>
+            <descripcion>Ejercicio xsd usando personas como raíz.</descripcion>
+        </item>
+        <item>
+            <title>Actividad 4 xsd. Personas </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas-xml/tree/master/actividad4xsdPersonas3</link>
+            <descripcion>Ejercicio xsd usando también personas como raíz.</descripcion>
+        </item>
+        <item>
+            <title>Actividad 5 xsd. Ciclos </title>
+            <link>https://github.com/a19sotean/Lenguaje-de-marcas-xml/tree/master/actividad4xsdPersonas3</link>
+            <descripcion>Ejercicio xsd de los ciclos.</descripcion>
         </item>
         
     </channel>
