@@ -1,0 +1,100 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  background-color: #222222;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #222222;
+}
+
+p {
+  line-height: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+h6 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+
+.button {
+  margin-left: 4rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #b133aa;
+  border-radius: 8px;
+  background: #d448ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d448ff), to(#932693));
+  background: -moz-linear-gradient(top, #e048ff, #932684);
+  background: linear-gradient(to bottom, #f048ff, #8f2693);
+  -webkit-box-shadow: #9756ff 0px 0px 40px 0px;
+  -moz-box-shadow: #9756ff 0px 0px 40px 0px;
+  box-shadow: #9756ff 0px 0px 40px 0px;
+  text-shadow: #571752 1px 1px 1px;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
