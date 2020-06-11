@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link rel="alternate" type="application/rss+xml" title="Andrea Solís. Vuelta al mundo." href="./canal.rss" />
+        <link rel="alternate" type="application/rss+xml" title="Andrea Solís. Vuelta al mundo." href="https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml/canal.rss" />
 
         <link rel="icon" href="./vectores/ship.svg" type="image/svg"/>
     </head>
@@ -135,7 +135,7 @@
                     <div class="col l3 s12">
                       <h5 class="white-text">RSS</h5>
                       <ul>
-                        <li><a class="white-text" target="_blank" type="application/rss+xml" href="./canal.rss">Canal RSS</a></li>
+                        <li><a class="white-text" target="_blank" type="application/rss+xml" href="https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml/canal.rss">Canal RSS</a></li>
                       </ul>
                     </div>
                   </div>
