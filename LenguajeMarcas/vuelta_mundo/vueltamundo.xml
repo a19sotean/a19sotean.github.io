@@ -5,6 +5,16 @@
 xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
 
 
-
+<etapa numero="1">
+    <descripcion>Phileas Fogg era todo un caballero en el Reino Unido. Él siempre iba al Reform Club. Allí jugaba al whist con sus colegas. Un día se levantó una discusión sobre poder dar la vuelta al mundo en 80 días. Los colegas decían que era imposible tal viaje en tan poco tiempo. Pero Phileas Fogg, era defensor de tal idea, y quiso apostar casi toda su fortuna a que era capaz de realizar dicho viaje. Aceptaron la apuesta y Fogg emprendió el viaje con su nuevo criado francés Passepartout.</descripcion>
+    <ciudad_salida>Londres</ciudad_salida>
+    <img_salida>./images/londres.jpg</img_salida>
+    <ciudad_paso>París</ciudad_paso>
+    <img_paso>./images/paris.jpg</img_paso>
+    <ciudad_llegada>Brindisi</ciudad_llegada>
+    <img_llegada>./images/brindisi.jpg</img_llegada>
+    <transporte>Tren</transporte>
+    <transporte>Barco</transporte>
+  </etapa>
     
 </vueltamundo>
