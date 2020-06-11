@@ -1,0 +1,123 @@
+  <etapa numero="1">
+    <descripcion>Phileas Fogg era todo un caballero en el Reino Unido. Él siempre iba al Reform Club. Allí jugaba al whist con sus colegas. Un día se levantó una discusión sobre poder dar la vuelta al mundo en 80 días. Los colegas decían que era imposible tal viaje en tan poco tiempo. Pero Phileas Fogg, era defensor de tal idea, y quiso apostar casi toda su fortuna a que era capaz de realizar dicho viaje. Aceptaron la apuesta y Fogg emprendió el viaje con su nuevo criado francés Passepartout.</descripcion>
+    <ciudad_salida>Londres</ciudad_salida>
+    <img_salida>./images/londres.jpg</img_salida>
+    <ciudad_paso>París</ciudad_paso>
+    <img_paso>./images/paris.jpg</img_paso>
+    <ciudad_llegada>Brindisi</ciudad_llegada>
+    <img_llegada>./images/brindisi.jpg</img_llegada>
+    <transporte>Tren</transporte>
+    <transporte>Barco</transporte>
+  </etapa>
+  
+  <etapa numero="2">
+    <descripcion>Apareció la primera contrariedad, porque se encontraron con el detective Fix, el cual había confundido a Fogg con un ladrón que había robado 55.000 libras en el banco de Inglaterra. Fix fue siguiendo cada paso que daban Passepartout y Phileas Fogg.</descripcion>
+    <ciudad_salida>Brindisi</ciudad_salida>
+    <img_salida>./images/brindisi.jpg</img_salida>
+    <ciudad_llegada>Bombay</ciudad_llegada>
+    <img_llegada>./images/bombay.jpg</img_llegada>
+    <transporte>Barco de vapor</transporte>
+  </etapa>
+
+  <etapa numero="3">
+      <descripcion>Al llegar a Bombay, subieron al tren con destino a Calcuta. Minutos antes, Passepartout había entrado en un sitio donde se debió quitar el calzado y fue perseguido.</descripcion>
+      <ciudad_salida>Bombay</ciudad_salida>
+      <img_salida>./images/bombay.jpg</img_salida>
+      <ciudad_llegada>Kholby</ciudad_llegada>
+      <img_llegada>./images/kholby.jpg</img_llegada>
+      <transporte>Tren</transporte>
+  </etapa>
+
+  <etapa numero="4">
+      <descripcion>El tren llegó a un trozo donde la vía no estaba acabada. Fogg decidió comprar un elefante con el que prosiguieron el viaje. En el trayecto, por salvar a una joven india se entretuvieron y llegaron a Calcuta acompañados de la joven viuda que rescataron llamada Aouda.</descripcion>
+      <ciudad_salida>Prayagraj</ciudad_salida>
+      <img_salida>./images/prayagraj.jpg</img_salida>
+      <ciudad_paso>Benarés</ciudad_paso>
+      <img_paso>./images/benares.jpg</img_paso>
+      <ciudad_llegada>Calcuta</ciudad_llegada>
+      <img_llegada>./images/calcuta.jpg</img_llegada>
+      <transporte>Tren</transporte>
+      <transporte>Elefante</transporte>
+  </etapa>
+
+  <etapa numero="5">
+      <descripcion>Embarcaron en un buque con destino a Hong-Kong, otra vez con el agente Fix tras ellos. Aouda también siguió junto a ellos.</descripcion>
+      <ciudad_salida>Calcuta</ciudad_salida>
+      <img_salida>./images/calcuta.jpg</img_salida>
+      <ciudad_llegada>Hong Kong</ciudad_llegada>
+      <img_llegada>./images/hongkong.jpg</img_llegada>
+      <transporte>Barco</transporte>
+  </etapa>
+
+  <etapa numero="6">
+      <descripcion>En Hong-Kong, Passepartout se encontró con Fix, el cual pudo emborracharlo.</descripcion>
+      <ciudad_salida>Hong Kong</ciudad_salida>
+      <img_salida>./images/hongkong.jpg</img_salida>
+      <ciudad_llegada>Shanghái</ciudad_llegada>
+      <img_llegada>./images/shanghai.jpg</img_llegada>
+      <transporte>Goleta</transporte>
+  </etapa>
+
+  <etapa numero="7">
+      <descripcion>El criado francés perdió el barco en el que se dirigían a Yokohama Fogg y Aouda.</descripcion>
+      <ciudad_salida>Shanghái</ciudad_salida>
+      <img_salida>./images/shanghai.jpg</img_salida>
+      <ciudad_llegada>Yokohama</ciudad_llegada>
+      <img_llegada>./images/yokohama.jpg</img_llegada>
+      <transporte>Buque</transporte>
+  </etapa>
+
+  <etapa numero="8">
+      <descripcion>Tras encontrarse de nuevo Passepartout con sus amigos en un circo en Japón, embarcaron juntos hacia San Francisco.</descripcion>
+      <ciudad_salida>Yokohama</ciudad_salida>
+      <img_salida>./images/yokohama.jpg</img_salida>
+      <ciudad_llegada>San Francisco</ciudad_llegada>
+      <img_llegada>./images/sanfrancisco.jpg</img_llegada>
+      <transporte>Paquebote</transporte>
+  </etapa>
+
+  <etapa numero="9">
+      <descripcion>Al bajarse tomaron un tren hacia Nueva York; este tren debía atravesar todo el continente de Oeste a Este y dejarlos en Nueva York. Pero en pleno duelo con el coronel Proctor, se vieron atacados por una tribu india, los Sioux que asaltaron rápidamente el tren. Por ello Passepartout consiguió soltar el enganche que unía el tren a la máquina y detuvo el tren cerca de la estación de Kearney. Al finalizar el asalto, se dieron cuenta que faltaba gente, uno de ellos era Passepartout. Phileas fue en busca de su amigo, junto a treinta hombres estadounidenses. Fix quiso quedarse con Aouda mientras esperaban. Tardaron bastante en llegar, por lo que Passepartout tenía remordimientos por haber retrasado a su amo.</descripcion>
+      <ciudad_salida>San Francisco</ciudad_salida>
+      <img_salida>./images/sanfrancisco.jpg</img_salida>
+      <ciudad_llegada>Kearney</ciudad_llegada>
+      <img_llegada>./images/kearney.jpg</img_llegada>
+      <transporte>Tren</transporte>
+  </etapa>
+
+  <etapa numero="10">
+      <descripcion>Tras negociar, pudieron ir hacia la próxima estación en un trineo.</descripcion>
+      <ciudad_salida>Kearney</ciudad_salida>
+      <img_salida>./images/kearney.jpg</img_salida>
+      <ciudad_llegada>Omaha</ciudad_llegada>
+      <img_llegada>./images/omaha.jpg</img_llegada>
+      <transporte>Trineo</transporte>
+  </etapa>
+
+  <etapa numero="11">
+      <descripcion>Semontaron en un tren y rápidamente llegaron a la estación próxima al río Hundson en Nueva York.</descripcion>
+      <ciudad_salida>Omaha</ciudad_salida>
+      <img_salida>./images/omaha.jpg</img_salida>
+      <ciudad_llegada>Nueva York</ciudad_llegada>
+      <img_llegada>./images/nuevayork.jpg</img_llegada>
+      <transporte>Tren</transporte>
+  </etapa>
+
+  <etapa numero="12">
+      <descripcion>Perdieron el barco que debieron tomar hacia Liverpool; así que Phileas Fogg decidió montar en un buque mercante llamado Henrietta. En el trayecto, tuvieron que recurrir al vapor porque la velocidad del barco con las velas había disminuido bastante. La máquina funcionaba a todo gas pero no tenían casi carbón, por eso Fogg mandó aprovechar toda la madera del mismo, dejándolo apenas sin madera superficial.</descripcion>
+      <ciudad_salida>Nueva York</ciudad_salida>
+      <img_salida>./images/nuevayork.jpg</img_salida>
+      <ciudad_llegada>Cobh</ciudad_llegada>
+      <img_llegada>./images/cobh.jpg</img_llegada>
+      <transporte>Barco mercantil</transporte>
+      <transporte>Barco de vapor</transporte>
+  </etapa>
+
+  <etapa numero="13">
+      <descripcion>Al llegar a tierras cercanas a Irlanda, tuvo que cambiar de trayectoria porque no llegaba a tiempo. Atravesaron Irlanda en ferrocarril y Fix aprovechó para detener a Phileas Fogg pero le dijeron que ya habían encontrado al verdadero ladrón.</descripcion>
+      <ciudad_salida>Cobh</ciudad_salida>
+      <img_salida>./images/cobh.jpg</img_salida>
+      <ciudad_llegada>Dublín</ciudad_llegada>
+      <img_llegada>./images/dublin.jpg</img_llegada>
+      <transporte>Ferrocarril</transporte>
+  </etapa>

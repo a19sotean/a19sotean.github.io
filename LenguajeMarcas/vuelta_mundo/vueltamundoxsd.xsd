@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vueltamundo">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="etapa" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="descripcion" type="xs:string" />
+                        <xs:element name="ciudad_salida" type="xs:string" />
+                        <xs:element name="img_salida" type="xs:string" />
+                        <xs:element name="ciudad_paso" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                        <xs:element name="img_paso" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                        <xs:element name="ciudad_llegada" type="xs:string" />
+                        <xs:element name="img_llegada" type="xs:string" />
+                        <xs:element name="transporte" type="xs:string" maxOccurs="unbounded" />
+                    </xs:sequence>
+                    <xs:attribute name="numero" type="xs:positiveInteger" />
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  </xs:schema>
+  

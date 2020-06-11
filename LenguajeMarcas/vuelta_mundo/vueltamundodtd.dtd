@@ -1,0 +1,14 @@
+
+<!ELEMENT vueltamundo (etapa)+>
+<!ATTLIST vueltamundo xmlns:xsi CDATA #IMPLIED>
+<!ATTLIST vueltamundo xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT etapa (descripcion, ciudad_salida, img_salida, ciudad_paso*, img_paso*, ciudad_llegada, img_llegada, transporte+)>
+<!ATTLIST etapa numero CDATA #REQUIRED>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT ciudad_salida (#PCDATA)>
+<!ELEMENT img_salida (#PCDATA)>
+<!ELEMENT ciudad_paso (#PCDATA)>
+<!ELEMENT img_paso (#PCDATA)>
+<!ELEMENT ciudad_llegada (#PCDATA)>
+<!ELEMENT img_llegada (#PCDATA)>
+<!ELEMENT transporte (#PCDATA)>
