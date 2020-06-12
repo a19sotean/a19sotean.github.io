@@ -16,5 +16,14 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
     <transporte>Tren</transporte>
     <transporte>Barco</transporte>
   </etapa>
+
+  <etapa numero="2">
+    <descripcion>Apareció la primera contrariedad, porque se encontraron con el detective Fix, el cual había confundido a Fogg con un ladrón que había robado 55.000 libras en el banco de Inglaterra. Fix fue siguiendo cada paso que daban Passepartout y Phileas Fogg.</descripcion>
+    <ciudad_salida>Brindisi</ciudad_salida>
+    <img_salida>./images/brindisi.jpg</img_salida>
+    <ciudad_llegada>Bombay</ciudad_llegada>
+    <img_llegada>./images/bombay.jpg</img_llegada>
+    <transporte>Barco de vapor</transporte>
+  </etapa>
     
 </vueltamundo>
