@@ -14,6 +14,8 @@
     <descripcion>Apareció la primera contrariedad, porque se encontraron con el detective Fix, el cual había confundido a Fogg con un ladrón que había robado 55.000 libras en el banco de Inglaterra. Fix fue siguiendo cada paso que daban Passepartout y Phileas Fogg.</descripcion>
     <ciudad_salida>Brindisi</ciudad_salida>
     <img_salida>./images/brindisi.jpg</img_salida>
+    <ciudad_paso>Ayvalik</ciudad_paso>
+    <img_paso>./images/ayvalik.jpg</img_paso>
     <ciudad_llegada>Bombay</ciudad_llegada>
     <img_llegada>./images/bombay.jpg</img_llegada>
     <transporte>Barco de vapor</transporte>
@@ -23,6 +25,8 @@
       <descripcion>Al llegar a Bombay, subieron al tren con destino a Calcuta. Minutos antes, Passepartout había entrado en un sitio donde se debió quitar el calzado y fue perseguido.</descripcion>
       <ciudad_salida>Bombay</ciudad_salida>
       <img_salida>./images/bombay.jpg</img_salida>
+      <ciudad_paso>Nashik</ciudad_paso>
+      <img_paso>./images/nashik.jpeg</img_paso>
       <ciudad_llegada>Kholby</ciudad_llegada>
       <img_llegada>./images/kholby.jpg</img_llegada>
       <transporte>Tren</transporte>
@@ -44,6 +48,8 @@
       <descripcion>Embarcaron en un buque con destino a Hong-Kong, otra vez con el agente Fix tras ellos. Aouda también siguió junto a ellos.</descripcion>
       <ciudad_salida>Calcuta</ciudad_salida>
       <img_salida>./images/calcuta.jpg</img_salida>
+      <ciudad_paso>Hanoi</ciudad_paso>
+      <img_paso>./images/hanoi.jpg</img_paso>
       <ciudad_llegada>Hong Kong</ciudad_llegada>
       <img_llegada>./images/hongkong.jpg</img_llegada>
       <transporte>Barco</transporte>
@@ -53,6 +59,8 @@
       <descripcion>En Hong-Kong, Passepartout se encontró con Fix, el cual pudo emborracharlo.</descripcion>
       <ciudad_salida>Hong Kong</ciudad_salida>
       <img_salida>./images/hongkong.jpg</img_salida>
+      <ciudad_paso>Quanzhou</ciudad_paso>
+      <img_paso>./images/quanzhou.jpg</img_paso>
       <ciudad_llegada>Shanghái</ciudad_llegada>
       <img_llegada>./images/shanghai.jpg</img_llegada>
       <transporte>Goleta</transporte>
@@ -62,6 +70,8 @@
       <descripcion>El criado francés perdió el barco en el que se dirigían a Yokohama Fogg y Aouda.</descripcion>
       <ciudad_salida>Shanghái</ciudad_salida>
       <img_salida>./images/shanghai.jpg</img_salida>
+      <ciudad_paso>Fukuoka</ciudad_paso>
+      <img_paso>./images/fukuoka.jpg</img_paso>
       <ciudad_llegada>Yokohama</ciudad_llegada>
       <img_llegada>./images/yokohama.jpg</img_llegada>
       <transporte>Buque</transporte>
@@ -71,6 +81,8 @@
       <descripcion>Tras encontrarse de nuevo Passepartout con sus amigos en un circo en Japón, embarcaron juntos hacia San Francisco.</descripcion>
       <ciudad_salida>Yokohama</ciudad_salida>
       <img_salida>./images/yokohama.jpg</img_salida>
+      <ciudad_paso>Tokio</ciudad_paso>
+      <img_paso>./images/tokio.jpg</img_paso>
       <ciudad_llegada>San Francisco</ciudad_llegada>
       <img_llegada>./images/sanfrancisco.jpg</img_llegada>
       <transporte>Paquebote</transporte>
@@ -80,6 +92,8 @@
       <descripcion>Al bajarse tomaron un tren hacia Nueva York; este tren debía atravesar todo el continente de Oeste a Este y dejarlos en Nueva York. Pero en pleno duelo con el coronel Proctor, se vieron atacados por una tribu india, los Sioux que asaltaron rápidamente el tren. Por ello Passepartout consiguió soltar el enganche que unía el tren a la máquina y detuvo el tren cerca de la estación de Kearney. Al finalizar el asalto, se dieron cuenta que faltaba gente, uno de ellos era Passepartout. Phileas fue en busca de su amigo, junto a treinta hombres estadounidenses. Fix quiso quedarse con Aouda mientras esperaban. Tardaron bastante en llegar, por lo que Passepartout tenía remordimientos por haber retrasado a su amo.</descripcion>
       <ciudad_salida>San Francisco</ciudad_salida>
       <img_salida>./images/sanfrancisco.jpg</img_salida>
+      <ciudad_paso>Loveland</ciudad_paso>
+      <img_paso>./images/loveland.jpg</img_paso>
       <ciudad_llegada>Kearney</ciudad_llegada>
       <img_llegada>./images/kearney.jpg</img_llegada>
       <transporte>Tren</transporte>
@@ -89,6 +103,8 @@
       <descripcion>Tras negociar, pudieron ir hacia la próxima estación en un trineo.</descripcion>
       <ciudad_salida>Kearney</ciudad_salida>
       <img_salida>./images/kearney.jpg</img_salida>
+      <ciudad_paso>Grand Island</ciudad_paso>
+      <img_paso>./images/grandisland.jpeg</img_paso>
       <ciudad_llegada>Omaha</ciudad_llegada>
       <img_llegada>./images/omaha.jpg</img_llegada>
       <transporte>Trineo</transporte>
@@ -98,6 +114,8 @@
       <descripcion>Semontaron en un tren y rápidamente llegaron a la estación próxima al río Hundson en Nueva York.</descripcion>
       <ciudad_salida>Omaha</ciudad_salida>
       <img_salida>./images/omaha.jpg</img_salida>
+      <ciudad_paso>Davenport</ciudad_paso>
+      <img_paso>./images/davenport.jpg</img_paso>
       <ciudad_llegada>Nueva York</ciudad_llegada>
       <img_llegada>./images/nuevayork.jpg</img_llegada>
       <transporte>Tren</transporte>
@@ -107,6 +125,8 @@
       <descripcion>Perdieron el barco que debieron tomar hacia Liverpool; así que Phileas Fogg decidió montar en un buque mercante llamado Henrietta. En el trayecto, tuvieron que recurrir al vapor porque la velocidad del barco con las velas había disminuido bastante. La máquina funcionaba a todo gas pero no tenían casi carbón, por eso Fogg mandó aprovechar toda la madera del mismo, dejándolo apenas sin madera superficial.</descripcion>
       <ciudad_salida>Nueva York</ciudad_salida>
       <img_salida>./images/nuevayork.jpg</img_salida>
+      <ciudad_paso>New Haven</ciudad_paso>
+      <img_paso>./images/newhaven.jpg</img_paso>
       <ciudad_llegada>Cobh</ciudad_llegada>
       <img_llegada>./images/cobh.jpg</img_llegada>
       <transporte>Barco mercantil</transporte>
@@ -117,6 +137,8 @@
       <descripcion>Al llegar a tierras cercanas a Irlanda, tuvo que cambiar de trayectoria porque no llegaba a tiempo. Atravesaron Irlanda en ferrocarril y Fix aprovechó para detener a Phileas Fogg pero le dijeron que ya habían encontrado al verdadero ladrón.</descripcion>
       <ciudad_salida>Cobh</ciudad_salida>
       <img_salida>./images/cobh.jpg</img_salida>
+      <ciudad_paso>Claremorris</ciudad_paso>
+      <img_paso>./images/claremorris.jpg</img_paso>
       <ciudad_llegada>Dublín</ciudad_llegada>
       <img_llegada>./images/dublin.jpg</img_llegada>
       <transporte>Ferrocarril</transporte>

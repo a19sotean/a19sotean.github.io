@@ -52,7 +52,7 @@
                       <i class="medium material-icons">location_on</i>para +info</h4>
                     
                   
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YPRMO1hhdrQQmF29-FkkCKmzczLwbeVx" width="640" height="480"></iframe>
+                      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YPRMO1hhdrQQmF29-FkkCKmzczLwbeVx" width="640" height="480"></iframe>
                   </div>
           
 
