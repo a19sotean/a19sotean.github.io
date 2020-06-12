@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <item>
-            <title>Vuelta al mundo en 80 días </title>
-            <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
-            <descripcion>Viaje de la vuelta al mundo en 80 días.</descripcion>
-        </item>
+        <title>Vuelta al mundo. Andrea Solís Tejada</title>
+        <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
+        <description>Viaje de la vuelta al mundo en 80 días.</description>
         
-        <item>
-            <title>Vuelta al mundo en 80 días. Etapa 1. </title>
-            <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
-            <descripcion>Etapa 1 de la vuelta al mundo en 80 días.</descripcion>
-        </item>
+            <item>
+                <title>Vuelta al mundo en 80 días. Etapa 1. </title>
+                <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
+                <descripcion>Etapa 1 de la vuelta al mundo en 80 días.</descripcion>
+            </item>
         
     </channel>
 </rss>
