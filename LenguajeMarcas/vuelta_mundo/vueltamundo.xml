@@ -27,5 +27,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
     <img_llegada>./images/bombay.jpg</img_llegada>
     <transporte>Barco de vapor</transporte>
   </etapa>
+
+  <etapa numero="3">
+    <descripcion>Al llegar a Bombay, subieron al tren con destino a Calcuta. Minutos antes, Passepartout había entrado en un sitio donde se debió quitar el calzado y fue perseguido.</descripcion>
+    <ciudad_salida>Bombay</ciudad_salida>
+    <img_salida>./images/bombay.jpg</img_salida>
+    <ciudad_paso>Nashik</ciudad_paso>
+    <img_paso>./images/nashik.jpeg</img_paso>
+    <ciudad_llegada>Kholby</ciudad_llegada>
+    <img_llegada>./images/kholby.jpg</img_llegada>
+    <transporte>Tren</transporte>
+</etapa>
     
 </vueltamundo>
