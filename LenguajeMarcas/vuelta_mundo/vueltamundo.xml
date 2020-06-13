@@ -72,5 +72,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/shanghai.jpg</img_llegada>
   <transporte>Goleta</transporte>
 </etapa>
+
+<etapa numero="7">
+  <descripcion>El criado francés perdió el barco en el que se dirigían a Yokohama Fogg y Aouda.</descripcion>
+  <ciudad_salida>Shanghái</ciudad_salida>
+  <img_salida>./images/shanghai.jpg</img_salida>
+  <ciudad_paso>Fukuoka</ciudad_paso>
+  <img_paso>./images/fukuoka.jpg</img_paso>
+  <ciudad_llegada>Yokohama</ciudad_llegada>
+  <img_llegada>./images/yokohama.jpg</img_llegada>
+  <transporte>Buque</transporte>
+</etapa>
     
 </vueltamundo>
