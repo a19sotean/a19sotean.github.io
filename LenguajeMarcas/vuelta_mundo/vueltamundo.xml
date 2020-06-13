@@ -39,6 +39,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
     <transporte>Tren</transporte>
 </etapa>
 
-
+<etapa numero="4">
+  <descripcion>El tren llegó a un trozo donde la vía no estaba acabada. Fogg decidió comprar un elefante con el que prosiguieron el viaje. En el trayecto, por salvar a una joven india se entretuvieron y llegaron a Calcuta acompañados de la joven viuda que rescataron llamada Aouda.</descripcion>
+  <ciudad_salida>Prayagraj</ciudad_salida>
+  <img_salida>./images/prayagraj.jpg</img_salida>
+  <ciudad_paso>Benarés</ciudad_paso>
+  <img_paso>./images/benares.jpg</img_paso>
+  <ciudad_llegada>Calcuta</ciudad_llegada>
+  <img_llegada>./images/calcuta.jpg</img_llegada>
+  <transporte>Tren</transporte>
+  <transporte>Elefante</transporte>
+</etapa>
     
 </vueltamundo>
