@@ -50,5 +50,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <transporte>Tren</transporte>
   <transporte>Elefante</transporte>
 </etapa>
+
+<etapa numero="5">
+  <descripcion>Embarcaron en un buque con destino a Hong-Kong, otra vez con el agente Fix tras ellos. Aouda también siguió junto a ellos.</descripcion>
+  <ciudad_salida>Calcuta</ciudad_salida>
+  <img_salida>./images/calcuta.jpg</img_salida>
+  <ciudad_paso>Hanoi</ciudad_paso>
+  <img_paso>./images/hanoi.jpg</img_paso>
+  <ciudad_llegada>Hong Kong</ciudad_llegada>
+  <img_llegada>./images/hongkong.jpg</img_llegada>
+  <transporte>Barco</transporte>
+</etapa>
     
 </vueltamundo>
