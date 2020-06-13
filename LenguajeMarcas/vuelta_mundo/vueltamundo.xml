@@ -61,5 +61,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/hongkong.jpg</img_llegada>
   <transporte>Barco</transporte>
 </etapa>
+
+<etapa numero="6">
+  <descripcion>En Hong-Kong, Passepartout se encontró con Fix, el cual pudo emborracharlo.</descripcion>
+  <ciudad_salida>Hong Kong</ciudad_salida>
+  <img_salida>./images/hongkong.jpg</img_salida>
+  <ciudad_paso>Quanzhou</ciudad_paso>
+  <img_paso>./images/quanzhou.jpg</img_paso>
+  <ciudad_llegada>Shanghái</ciudad_llegada>
+  <img_llegada>./images/shanghai.jpg</img_llegada>
+  <transporte>Goleta</transporte>
+</etapa>
     
 </vueltamundo>
