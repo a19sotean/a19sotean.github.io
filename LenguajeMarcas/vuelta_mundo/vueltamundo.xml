@@ -139,5 +139,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <transporte>Barco mercantil</transporte>
   <transporte>Barco de vapor</transporte>
 </etapa>
+
+<etapa numero="13">
+  <descripcion>Al llegar a tierras cercanas a Irlanda, tuvo que cambiar de trayectoria porque no llegaba a tiempo. Atravesaron Irlanda en ferrocarril y Fix aprovechó para detener a Phileas Fogg pero le dijeron que ya habían encontrado al verdadero ladrón.</descripcion>
+  <ciudad_salida>Cobh</ciudad_salida>
+  <img_salida>./images/cobh.jpg</img_salida>
+  <ciudad_paso>Claremorris</ciudad_paso>
+  <img_paso>./images/claremorris.jpg</img_paso>
+  <ciudad_llegada>Dublín</ciudad_llegada>
+  <img_llegada>./images/dublin.jpg</img_llegada>
+  <transporte>Ferrocarril</transporte>
+</etapa>
     
 </vueltamundo>

@@ -76,6 +76,13 @@
                 <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
                 <descripcion>Etapa 12 de la vuelta al mundo en 80 días.</descripcion>
             </item>
+
+            <item>
+                <title>Vuelta al mundo en 80 días. Etapa 13. </title>
+                <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
+                <descripcion>Etapa 13 de la vuelta al mundo en 80 días.</descripcion>
+            </item>
+        
         
     </channel>
 </rss>
