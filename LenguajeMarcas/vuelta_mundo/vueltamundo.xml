@@ -83,5 +83,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/yokohama.jpg</img_llegada>
   <transporte>Buque</transporte>
 </etapa>
+
+<etapa numero="8">
+  <descripcion>Tras encontrarse de nuevo Passepartout con sus amigos en un circo en Japón, embarcaron juntos hacia San Francisco.</descripcion>
+  <ciudad_salida>Yokohama</ciudad_salida>
+  <img_salida>./images/yokohama.jpg</img_salida>
+  <ciudad_paso>Tokio</ciudad_paso>
+  <img_paso>./images/tokio.jpg</img_paso>
+  <ciudad_llegada>San Francisco</ciudad_llegada>
+  <img_llegada>./images/sanfrancisco.jpg</img_llegada>
+  <transporte>Paquebote</transporte>
+</etapa>
     
 </vueltamundo>
