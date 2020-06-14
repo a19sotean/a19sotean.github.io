@@ -127,5 +127,17 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/nuevayork.jpg</img_llegada>
   <transporte>Tren</transporte>
 </etapa>
+
+<etapa numero="12">
+  <descripcion>Perdieron el barco que debieron tomar hacia Liverpool; así que Phileas Fogg decidió montar en un buque mercante llamado Henrietta. En el trayecto, tuvieron que recurrir al vapor porque la velocidad del barco con las velas había disminuido bastante. La máquina funcionaba a todo gas pero no tenían casi carbón, por eso Fogg mandó aprovechar toda la madera del mismo, dejándolo apenas sin madera superficial.</descripcion>
+  <ciudad_salida>Nueva York</ciudad_salida>
+  <img_salida>./images/nuevayork.jpg</img_salida>
+  <ciudad_paso>New Haven</ciudad_paso>
+  <img_paso>./images/newhaven.jpg</img_paso>
+  <ciudad_llegada>Cobh</ciudad_llegada>
+  <img_llegada>./images/cobh.jpg</img_llegada>
+  <transporte>Barco mercantil</transporte>
+  <transporte>Barco de vapor</transporte>
+</etapa>
     
 </vueltamundo>
