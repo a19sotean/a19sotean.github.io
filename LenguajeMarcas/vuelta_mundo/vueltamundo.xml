@@ -94,5 +94,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/sanfrancisco.jpg</img_llegada>
   <transporte>Paquebote</transporte>
 </etapa>
+
+<etapa numero="9">
+  <descripcion>Al bajarse tomaron un tren hacia Nueva York; este tren debía atravesar todo el continente de Oeste a Este y dejarlos en Nueva York. Pero en pleno duelo con el coronel Proctor, se vieron atacados por una tribu india, los Sioux que asaltaron rápidamente el tren. Por ello Passepartout consiguió soltar el enganche que unía el tren a la máquina y detuvo el tren cerca de la estación de Kearney. Al finalizar el asalto, se dieron cuenta que faltaba gente, uno de ellos era Passepartout. Phileas fue en busca de su amigo, junto a treinta hombres estadounidenses. Fix quiso quedarse con Aouda mientras esperaban. Tardaron bastante en llegar, por lo que Passepartout tenía remordimientos por haber retrasado a su amo.</descripcion>
+  <ciudad_salida>San Francisco</ciudad_salida>
+  <img_salida>./images/sanfrancisco.jpg</img_salida>
+  <ciudad_paso>Loveland</ciudad_paso>
+  <img_paso>./images/loveland.jpg</img_paso>
+  <ciudad_llegada>Kearney</ciudad_llegada>
+  <img_llegada>./images/kearney.jpg</img_llegada>
+  <transporte>Tren</transporte>
+</etapa>
     
 </vueltamundo>

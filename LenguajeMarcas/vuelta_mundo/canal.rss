@@ -48,9 +48,15 @@
             </item>
 
             <item>
-                <title>Vuelta al mundo en 80 días. Etapa 7. </title>
+                <title>Vuelta al mundo en 80 días. Etapa 8. </title>
                 <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
-                <descripcion>Etapa 7 de la vuelta al mundo en 80 días.</descripcion>
+                <descripcion>Etapa 8 de la vuelta al mundo en 80 días.</descripcion>
+            </item>
+
+            <item>
+                <title>Vuelta al mundo en 80 días. Etapa 9. </title>
+                <link>https://a19sotean.github.io/LenguajeMarcas/vuelta_mundo/vueltamundo.xml</link>
+                <descripcion>Etapa 9 de la vuelta al mundo en 80 días.</descripcion>
             </item>
         
     </channel>
