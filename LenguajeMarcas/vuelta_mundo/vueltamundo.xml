@@ -116,5 +116,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/omaha.jpg</img_llegada>
   <transporte>Trineo</transporte>
 </etapa>
+
+<etapa numero="11">
+  <descripcion>Semontaron en un tren y rápidamente llegaron a la estación próxima al río Hundson en Nueva York.</descripcion>
+  <ciudad_salida>Omaha</ciudad_salida>
+  <img_salida>./images/omaha.jpg</img_salida>
+  <ciudad_paso>Davenport</ciudad_paso>
+  <img_paso>./images/davenport.jpg</img_paso>
+  <ciudad_llegada>Nueva York</ciudad_llegada>
+  <img_llegada>./images/nuevayork.jpg</img_llegada>
+  <transporte>Tren</transporte>
+</etapa>
     
 </vueltamundo>
