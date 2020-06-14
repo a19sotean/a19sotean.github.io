@@ -105,5 +105,16 @@ xsi:noNamespaceSchemaLocation="vueltamundoxsd.xsd">
   <img_llegada>./images/kearney.jpg</img_llegada>
   <transporte>Tren</transporte>
 </etapa>
+
+<etapa numero="10">
+  <descripcion>Tras negociar, pudieron ir hacia la próxima estación en un trineo.</descripcion>
+  <ciudad_salida>Kearney</ciudad_salida>
+  <img_salida>./images/kearney.jpg</img_salida>
+  <ciudad_paso>Grand Island</ciudad_paso>
+  <img_paso>./images/grandisland.jpeg</img_paso>
+  <ciudad_llegada>Omaha</ciudad_llegada>
+  <img_llegada>./images/omaha.jpg</img_llegada>
+  <transporte>Trineo</transporte>
+</etapa>
     
 </vueltamundo>
